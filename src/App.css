@@ -1,0 +1,54 @@
+#root {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+input{
+  width: 300px;
+  height: 42px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-right: 5px;
+}
+button{
+  width: 100px;
+  height: 42px;
+  background-color: #4625ffd8;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+}
+ul, li{
+  list-style: none;
+  margin: 0 auto;
+}
+
+.todo-container{
+  margin: 50px auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 800px;
+  min-height: 70vh;
+  box-shadow: 5px 5px 10px -5px grey;
+}
+
+.todo-Listbox{
+  align-items: center;
+}
+
+.input-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto;
+  max-width: 700px;
+  width: 400px;
+  height: 42px;
+}
+.btn-box{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
