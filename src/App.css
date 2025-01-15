@@ -47,6 +47,14 @@ ul, li{
   width: 400px;
   height: 42px;
 }
+.input-box > span{
+  display: inline-block;
+  max-width: 300px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
 .btn-box{
   display: flex;
   flex-direction: row;
