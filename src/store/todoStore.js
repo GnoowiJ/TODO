@@ -14,7 +14,7 @@ const useTodoStore = create((set) => ({
   },
   addTodo:(text) => 
     set((state) => ({
-      todoList: [...state.todoList, { id: state.todoList.length + 1, text}]
+      todoList: [...state.todoList, { id: Date.now(), text}]
     })),
   removeTodo: (id) => 
     set((state) => ({ todoList: state.todoList.filter((e) => e.id !== id)})),
